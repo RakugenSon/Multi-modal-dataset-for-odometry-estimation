@@ -58,7 +58,8 @@ cd ~/neor_mini/mini_sim18_ws/src/neor_mini/launch
 roslaunch display_gazebo_sensors_VLP16.launch 
 ```
 
-![](figures/ugv.png)
+
+<div align=center><img height =300 src="figures/ugv.png"/></div>
 
 
 Step 3: Visualize the urdf in Gazebo and control UGV.
@@ -103,3 +104,27 @@ python3 extractdepth.py                   #extract 16UC1 depth images
 python3 extractimu.py                     #extract angular velocity and linear acceleration in xyz
 rosrun pcl_ros bag_to_pcd <*.bag> /velodyne_points <output_directory>  #extract LiDAR point cloud to pcd files
 ```
+You can try to add other sensors and world maps as extending of this repo.
+The following world maps could be found in `https://github.com/mlherd/Dataset-of-Gazebo-Worlds-Models-and-Maps`
+
+![](figures/otherworlds.png)
+
+# Acknowledgement
+Gazebo world maps:
+- [https://github.com/sychaichangkun/ROS-Academy-for-Beginners](https://github.com/sychaichangkun/ROS-Academy-for-Beginners)
+- [https://github.com/mlherd/Dataset-of-Gazebo-Worlds-Models-and-Maps](https://github.com/mlherd/Dataset-of-Gazebo-Worlds-Models-and-Maps)
+
+Steer_drive_ros to control the motion of UGV
+- [https://github.com/CIR-KIT/steer_drive_ros/tree/kinetic-devel/steer_drive_controller](https://github.com/CIR-KIT/steer_drive_ros/tree/kinetic-devel/steer_drive_controller)
+
+Velodyne VLP-16 3D LiDAR
+
+- [https://github.com/RobotnikAutomation/velodyne_simulator](https://github.com/RobotnikAutomation/velodyne_simulator
+)
+
+Realsense D435 for RGB and depth
+- [https://github.com/issaiass/realsense2_description](https://github.com/issaiass/realsense2_description)
+
+Framework and UGV model were modified from
+- [https://github.com/COONEO/neor_mini/tree/Melodic/mini_sim18_ws/src/neor_mini](https://github.com/COONEO/neor_mini/tree/Melodic/mini_sim18_ws/src/neor_mini
+)
