@@ -127,3 +127,6 @@ Realsense D435 for RGB and depth
 Framework and UGV model were modified from
 - [https://github.com/COONEO/neor_mini/tree/Melodic/mini_sim18_ws/src/neor_mini](https://github.com/COONEO/neor_mini/tree/Melodic/mini_sim18_ws/src/neor_mini
 )
+
+
+***The details of this dataset will be public after our submission get acceptance.***
