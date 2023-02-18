@@ -104,8 +104,7 @@ python3 extractdepth.py                   #extract 16UC1 depth images
 python3 extractimu.py                     #extract angular velocity and linear acceleration in xyz
 rosrun pcl_ros bag_to_pcd <*.bag> /velodyne_points <output_directory>  #extract LiDAR point cloud to pcd files
 ```
-You can try to add other sensors and world maps as extending of this repo.
-The following world maps could be found in `https://github.com/mlherd/Dataset-of-Gazebo-Worlds-Models-and-Maps`
+You can try to add other sensors and world maps(even dynamic environments) as extending of this repo.
 
 ![](figures/otherworlds.png)
 
