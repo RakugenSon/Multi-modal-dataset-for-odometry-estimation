@@ -128,5 +128,24 @@ Framework and UGV model were modified from
 - [https://github.com/COONEO/neor_mini/tree/Melodic/mini_sim18_ws/src/neor_mini](https://github.com/COONEO/neor_mini/tree/Melodic/mini_sim18_ws/src/neor_mini
 )
 
+Trajectory plot tool `evo`
+- [https://github.com/MichaelGrupp/evo](https://github.com/MichaelGrupp/evo)
 
-***The details of this dataset will be public after our submission get acceptance.***
+# Dataset example 
+You can download the rosbag [here](https://drive.google.com/file/d/12fIVgur6wDlltR3biISjAG2rX61xxCqI/view?usp=share_link).
+
+Using provided scripts to extract modalities you need, use `evo` to visulize the gt trajectory.
+```bash
+evo_traj tum gt.txt -p -v --plot_mode xy         #visualize the extracted ground truth trajectory
+```
+Depth + RGB + IMU + LiDAR point cloud + gt trajectory are inside of the rosbag.
+
+![](figures/contents.png)
+
+The trajectory in the Gazebo world map.
+
+<div align=center><img height =500 src="figures/traj.png"/></div>
+
+
+
+***The details of this dataset (including all record rosbags and code related to ROS/Gazebo) will be open after our submission get accept.***
