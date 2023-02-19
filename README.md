@@ -148,4 +148,4 @@ The trajectory in the Gazebo world map.
 
 
 
-***The details of this dataset (including all recorded rosbags and code related to ROS/Gazebo) will be open after our submission get accept.***
+***The details of this dataset (including all recorded rosbags and code related to ROS/Gazebo) will be public after our submission get acceptance.***
