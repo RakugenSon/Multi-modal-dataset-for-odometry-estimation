@@ -140,12 +140,12 @@ evo_traj tum gt.txt -p -v --plot_mode xy         #visualize the extracted ground
 ```
 Depth + RGB + IMU + LiDAR point cloud + gt trajectory are inside of the rosbag.
 
-![](figures/contents.png)
+![](figures/content.png)
 
 The trajectory in the Gazebo world map.
 
-<div align=center><img height =500 src="figures/traj.png"/></div>
+<div align=center><img height =500 src="figures/traj_.png"/></div>
 
 
 
-***The details of this dataset (including all record rosbags and code related to ROS/Gazebo) will be open after our submission get accept.***
+***The details of this dataset (including all recorded rosbags and code related to ROS/Gazebo) will be open after our submission get accept.***
