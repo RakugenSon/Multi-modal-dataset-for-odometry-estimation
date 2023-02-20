@@ -1,4 +1,4 @@
-# Gazebo-based Synthetic Multi-modal dataset 
+# Gazebo-based Synthetic Multi-modal Dataset 
 
 ![](figures/multi_modal_dataset.png)
 
@@ -26,8 +26,6 @@ leyuansun@outlook.com 2023.2
 
 ​	    Ground truth trajectory: timestamp + tx + ty + tz + qx + qy + qz + qw
 
-
-ubuntu 18.04 + ROS Melodic desktop full 
 
 
 Simulation in Gazebo with ROS, Follow below steps:
