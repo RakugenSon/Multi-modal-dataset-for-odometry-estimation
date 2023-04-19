@@ -1,5 +1,18 @@
 # Gazebo-based Synthetic Multi-modal Dataset 
-# arXiv version: [TransFusionOdom: Interpretable Transformer-based LiDAR-Inertial Fusion Odometry Estimation](https://arxiv.org/abs/2304.07728)
+## Citation of arXiv
+>Leyuan Sun, Guanqun Ding, Yue Qiu, Yusuke Yoshiyasu and Fumio Kanehiro, 2023. TransFusionOdom: Interpretable Transformer-based LiDAR-Inertial Fusion Odometry Estimation. [PDF](https://arxiv.org/abs/2304.07728)
+
+## Bibtex
+```
+ @misc{sun2023transfusionodom,
+      title={TransFusionOdom: Interpretable Transformer-based LiDAR-Inertial Fusion Odometry Estimation}, 
+      author={Leyuan Sun and Guanqun Ding and Yue Qiu and Yusuke Yoshiyasu and Fumio Kanehiro},
+      year={2023},
+      eprint={2304.07728},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+}
+```
 
 ![](figures/multi_modal_dataset.png)
 
