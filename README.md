@@ -1,4 +1,5 @@
 # Gazebo-based Synthetic Multi-modal Dataset 
+# arXiv version: [TransFusionOdom: Interpretable Transformer-based LiDAR-Inertial Fusion Odometry Estimation](https://arxiv.org/abs/2304.07728)
 
 ![](figures/multi_modal_dataset.png)
 
@@ -85,7 +86,7 @@ rosbag record -O bag_file_name /d435/color/image_raw /d435/depth/image_raw /imu/
 ```
 The recorded bag file includes the following topics.
 ```bash
-topics:      /ackermann_steering_controller/odom      : nav_msgs/Odometry      
+topics:      /ackermann_steering_controller/odom      : nav_msgs/Odometry # not visually drift       
              /d435/color/image_raw                    : sensor_msgs/Image      
              /d435/depth/image_raw                    : sensor_msgs/Image      
              /imu/data                                : sensor_msgs/Imu        
@@ -96,7 +97,7 @@ Step 5: Extract modalities from rosbag.
 
 The format of file name is timestamp.`timestr = "%.6f" %  msg.header.stamp.to_sec()`
 ```bash
-python3 extractgt.py                      #extract ground truth trajectory
+python3 extractgt.py                      #extract ground truth trajectory, will upadte the gt extraction details from simualtion state later
 python3 extractimg.py                     #extract RGB images
 python3 extractdepth.py                   #extract 16UC1 depth images
 python3 extractimu.py                     #extract angular velocity and linear acceleration in xyz
@@ -147,3 +148,4 @@ The trajectory in the Gazebo world map.
 
 
 ***The details of this dataset (including all recorded rosbags and code related to ROS/Gazebo) will be public after our submission get acceptance.***
+
